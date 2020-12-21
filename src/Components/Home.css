@@ -1,0 +1,44 @@
+.img{
+    position: relative;
+   
+    background-image: url('../image/main\ banner.jpg');
+
+    
+    background-size: 1400px 500px;
+    /* background-color: ; */
+    background-repeat: no-repeat;
+    /*background-attachment: fixed; */
+ height: 500px;
+ width:1400px;
+
+
+}
+
+@media screen and (max-width: 480px) {
+   .img {
+    background-size: 500px 500px;
+    height: 500px;
+    width:1400px;
+    }
+    .card{
+      margin-left: 10% !important;
+    }
+  }
+
+  @media screen and (max-width: 575px) {
+  
+     .card{
+       margin-left: 15% !important;
+     }
+   }
+
+  @media screen and (max-width: 360px) {
+    .img {
+     background-size: 400px 500px;
+     height: 500px;
+     width:1400px;
+     }
+     .card{
+      margin-left: 1% !important;
+    }
+   }
